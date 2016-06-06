@@ -6,8 +6,9 @@ from stats.models import BattingAvg
 
 
 def add_data(apps, schema_editor):
-    BattingAvg.objects.create(name='Manny Machado', position='CF', games=2, at_bats=4, runs=6, hits=6, doubles=4,
-                              triples=5, home_runs=5, rbi=9, strike_outs=4, average=.400)
+    pass
+    #BattingAvg.objects.create(name='Manny Machado', position='CF', games=2, at_bats=4, runs=6, hits=6, doubles=4,
+    #                          triples=5, home_runs=5, rbi=9, strike_outs=4, average=.400)
 
 
 class Migration(migrations.Migration):
